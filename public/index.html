@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Tech</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    <h1>Eventos Tecnológicos</h1>
+
+    <section class="form-section">
+        <h2>Adicionar Evento</h2>
+        <form id="eventoForm">
+            <input type="text" placeholder="Título..." name="titulo" required>
+            <input type="text" placeholder="Local..." name="local" required>
+            <input type="datetime-local" name="data_evento" required>
+            <textarea placeholder="Descrição..." name="descricao" required></textarea>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <section class="lista-section">
+        <h2>Eventos Cadastrados</h2>
+        <ul id="listaEventos"></ul>
+    </section>
+</body>
+
+</html>
