@@ -25,11 +25,14 @@ async function carregarEventos() {
 
     lista.innerHTML = '';
     eventos.forEach(e => {
+
         const li = document.createElement('li');
-        li.innerHTML = `<strong>${e.titulo}</strong> -${e.local} aos ${e.data_evento}
+        li.innerHTML = `
+        <strong>${e.titulo}</strong> -${e.local} aos ${e.data_evento}
         <br><em> ${e.descricao}</em>
         `;
 
         lista.appendChild(li);
+        
     });
 }
