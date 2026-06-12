@@ -24,7 +24,7 @@ a {
 
 /* NAVBAR */
 ul {
-    list-style: none; 
+    list-style: none;
 }
 
 .navbar {
@@ -47,7 +47,8 @@ ul {
 .nav-links li {
     margin: 0 16px;
 }
-.navbar .active{
+
+.navbar .active {
     background: #fc036b;
     padding: 8px;
     text-align: center;
@@ -132,7 +133,7 @@ section {
 }
 
 .row .col img {
-    width: 300px; 
+    width: 300px;
 }
 
 .events .row {
@@ -276,7 +277,8 @@ p {
     .nav-links li {
         margin: 30px auto;
     }
-    .nav-links li a{
+
+    .nav-links li a {
         font-size: 4vw;
     }
 
@@ -315,7 +317,7 @@ p {
     .gallery img {
         width: 90%;
     }
- 
+
     .footer {
         padding: 10px;
     }
