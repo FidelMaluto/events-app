@@ -9,12 +9,31 @@ html {
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: nene;
 }
 
-body ::-webkit-scrollbar {
-  display: none;
+/* 04. SCROLLBAR */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(223, 3, 80, 0.959) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(233, 3, 80, 0.959);
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(223, 3, 80, 0.959);
 }
 
 a {
@@ -134,6 +153,7 @@ section {
 
 .row .col img {
   width: 300px;
+  cursor: pointer;
 }
 
 .events .row {
@@ -225,6 +245,7 @@ p {
 .gallery img {
   width: 250px;
   margin: 10px;
+  cursor: pointer;
 }
 
 /* FOOTER */
